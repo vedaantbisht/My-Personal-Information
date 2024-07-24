@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(185, 168, 196);
+    line-height: 1.6;
+    color: antiquewhite;
+}
+
+header{
+    background-color: #bb8484;
+    color: aqua;
+    padding: 1rem;
+    text-align: left;
+}
+
+nav ul{
+    margin: 0 1rem;
+    list-style: none;
+    padding: left;
+}
+
+nav ul li{
+    display: inline;
+    margin:0 1rem;
+}
+
+main{
+    padding: 2rem;
+}
+
+section{
+    margin: 0 2rem;
+}
+
+#first img{
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin:  1rem auto;
+}
+
+.Project{
+    background-color:rgb(123, 129, 218);
+    padding: 1rem;
+    margin: 1rem 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);;
+}
+
+form{
+    background-color: rgb(190, 138, 179);
+    padding: 1rem;
+    margin: 0 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    margin: 1rem;
+    padding: 5px;
+    margin-bottom: 2px;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+form button {
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    background: cadetblue;
+    border: none;
+}
+
+footer {
+    margin: 2rem;
+    color: black;
+    text-decoration: none;
+}
